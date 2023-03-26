@@ -12,7 +12,6 @@ function Blog() {
                 <h2> {blogPost.date} </h2>
                 <p> {blogPost.content} </p>
             </>
-
     });
 
     return (

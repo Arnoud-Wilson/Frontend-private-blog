@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 function Blogpost() {
 
     const BlogPosts = Posts.map((blogPost) => {
-        return <li key={blogPost.id}> <Link to="/blog/{blogPost.id}">{blogPost.title} </Link> </li>
+        return <li key={blogPost.id}> <Link to={"/blog/" + blogPost.id}>{blogPost.title} </Link> </li>
     });
 
     return (

@@ -1,11 +1,12 @@
 import React from 'react';
 import {useNavigate} from "react-router-dom";
 
-function Login() {
+function Login({ToggleIsAuthenticated}) {
     const Navigate = useNavigate();
 
     function goToHomeScreen() {
-        Navigate("/")
+        ToggleIsAuthenticated(true);
+        Navigate("/");
     }
 
     return (
