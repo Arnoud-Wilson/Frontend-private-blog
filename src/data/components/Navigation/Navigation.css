@@ -1,0 +1,20 @@
+nav {
+    background-color: darkorange;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 500px;
+    justify-content: space-around;
+}
+
+nav li {
+    list-style: none;
+}
+
+
+
